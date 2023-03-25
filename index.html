@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Custom Links-->
+    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <!--Fonts Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--BoxIcons Links-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>The Batman</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>
+                <a href="#" class="logo">
+                    <img src="/assets/img/batmanlogo1-removebg-preview1.png">
+                </a>
+            </h1>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#home" data-text="Home">Home</a></li>
+                    <li><a href="#about" data-text="About">About</a></li>
+                    <li><a href="#trailers" data-text="Trailers">Trailers</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+
+        <!--Home Section-->
+        <section class="main-container" id="home">
+            <div class="main-text">
+                <h2><span>THE VENGEANCE</span></h2>
+                <h3>I am <span>Vengeance</span>, I am the <span>Night</span>, I am <span>Batman</span></h3>
+                <p> Após dois anos espreitandos as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City.
+                Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população. </p>
+            </div>
+            <div class="btns">
+                <a href="#about" class="btn">Sinopse</a>
+                <a href="#" class="btn" onclick="toggle();">Assistir aos Teaser <i class='bx bx-play'></i></a>
+            </div>
+            <div class="social-midias">
+                <ul>
+                    <li><a href="https://www.instagram.com/dcofficial/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a></li>
+                    <li><a href="https://twitter.com/DCOfficial" target="_blank"><i class='bx bxl-twitter' ></i></a></li>
+                    <li><a href="https://www.youtube.com/@dcofficial" target="_blank"><i class='bx bxl-youtube' ></i></a></li>
+                </ul>
+            </div>
+            <div class="slide"></div>
+            <div class="teaser">
+                <video src="/assets/video/Batman   Teaser Trailer Legendado DC FanDome.mp4" controls="true" muted></video>
+                <img src="/assets/img/close.png" class="close" onclick="toggle();">
+            </div>
+        </section>
+
+        <!--About Section-->
+        <section class="about-container" id="about">
+            <div class="about-img">
+                <img src="/assets/img/aboutimg-removebg-preview.png">
+            </div>
+            <div class="about-text">
+                <h3>SINOPSE</h3>
+                <h4>Não recomendado para menores de 14 anos</h4>
+                <p> Batman (The Batman, no original) segue o segundo ano de Bruce Wayne (Robert Pattinson) como o herói de Gotham, causando medo nos corações dos criminosos da sombria cidade. Com apenas alguns aliados de confiança - Alfred Pennyworth (Andy Serkis) e o tenente James Gordon (Jeffrey Wright) - entre a rede corrupta de funcionários e figuras importantes do distrito, o vigilante solitário se estabeleceu como a única personificação da vingança entre seus concidadãos. Durante uma de suas investigações, Bruce acaba envolvendo a si mesmo e Gordon em um jogo de gato e rato, ao investigar uma série de maquinações sádicas em uma trilha de pistas enigmáticas estabelecida pelo vilão Charada. Quando o trabalho acaba o levando a descobrir uma onda de corrupção que envolve o nome de sua família, pondo em risco a própria integridade e as memórias que tinha sobre seu pai, Thomas Wayne, as evidências começam a chegar mais perto de casa, precisando, Batman, forjar novos relacionamentos, para assim desmascarar o culpado e fazer justiça ao abuso de poder e à corrupção que há muito tempo assola Gotham City.</p>
+            </div>
+        </section>
+
+        <!--Trailer Section-->
+        <section class="trailers" id="trailers">
+            
+            <div class="trailer-text">
+                <h2>Trailers Disponíveis</h2>
+            </div>
+            
+            <div class="videos-container">
+                <div class="trailer">
+                    <iframe src="https://www.youtube.com/embed/IB4Tkgo8_Lc" title="YouTube video player" frameborder="0"  allowfullscreen loading="lazy"></iframe>
+                </div>
+
+                <div class="trailer">
+                    <iframe src="https://www.youtube.com/embed/IQaP0hYraMw" title="YouTube video player" frameborder="0"  allowfullscreen loading="lazy"></iframe>
+                </div>
+
+                <div class="trailer">
+                    <iframe src="https://www.youtube.com/embed/HJv4LQxbVEA" title="YouTube video player" frameborder="0" allowfullscreen loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer Section-->
+    <footer class="end">
+        <div class="last-text">
+            <p>Copyright © 2023 by Lucas Eduardo Crespo de Carvalho All Rights Reserved</p>
+        </div>
+        
+        <div class="top">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    
+    <script src="/assets/js/script.js"></script>
+
+</body>
+</html>
