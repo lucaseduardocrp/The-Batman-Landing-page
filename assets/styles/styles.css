@@ -84,7 +84,7 @@ header .header-container nav .navbar li a:hover::before{
 /*----------Main Section----------*/
 
 main .main-container{
-    background: url(/assets/img/Untitled\ design\ \(3\).png);
+    background: url(./assets/img/Untitled\ design\ \(3\).png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
