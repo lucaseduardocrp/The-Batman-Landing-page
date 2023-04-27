@@ -246,7 +246,7 @@ main .about-container .about-text h4{
 }
 main .about-container .about-text p{
     margin-left: 15px;
-    font-size: 18px;
+    font-size: var(--p-font);
     font-weight: 500;
     color: var(--white-alternative-color);
     line-height: 1.7;
@@ -297,3 +297,118 @@ main .trailers .videos-container iframe{
     background: var(--dark-red-color);
 }
 
+/*------RESPONSIVE SECTION------*/
+
+@media (max-width: 1630px){
+    main .trailers .videos-container iframe{
+        width: 360px;
+        height: 415px;
+    }
+}
+
+@media (max-width: 1490px){    
+    section{
+        height: 100vh;
+    }
+    header .header-container{
+        position: fixed;
+    }
+    :root{
+        --h1-font: 4rem;
+        --h2-font: 3rem;
+        --h3-font: 1.2rem;
+        --p-font: 1rem;
+    }
+    main .main-container .slide{
+        display: none;
+    }
+    main .trailers .videos-container iframe{
+        width: 360px;
+        height: 415px;
+    }
+}
+
+@media (max-width: 1450px){
+    main .about-container .about-text{
+        border: none;
+        margin-top: 50px;
+    }
+    :root{
+        --h1-font: 3rem;
+        --h2-font: 2rem;
+        --h3-font: 1rem;
+        --p-font: 1rem;
+    }
+    main .trailers .trailer-text h2{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1430px){
+    section{
+        height: 87vh;
+    }
+    main .about-container .about-img img{
+        width: 300px;
+        height: 500px;
+    }
+    main .main-container .social-midias ul li a i{
+        font-size: 30px;
+        line-height: 1.8;
+    }
+    :root{
+        --p-font: 0.9rem;
+    }
+}
+
+@media (max-width: 1330px){
+    main .trailers .videos-container iframe{
+        width: 260px;
+        height: 315px;
+    }
+}
+
+@media (max-width: 1220px){
+    section{
+        height: 77vh;
+    }
+    header .header-container{
+        padding: 10px;
+    }
+    main .about-container{
+        grid-template-columns: 1fr;
+        padding: 30px;
+    }
+    main .about-container .about-img{
+        text-align: center;
+    }
+    main .trailers .trailer-text h2{
+        margin-top: 220px;
+    }
+    main .about-container .about-text{
+        display: inline-block;
+        justify-content: flex-start;
+    }
+    main .main-container .social-midias{
+        justify-content: flex-start;
+    }
+    main .main-container .social-midias ul{
+        display: flex;
+        margin-top: 30px;
+    }
+    main .main-container .social-midias ul li{
+        margin-right: 20px;
+    }
+    main .about-container .about-img img{
+        width: 200px;
+        height: 300px;
+    }
+    main .main-container .btns .btn{
+        padding: 15px;
+        font-size: 14px;
+    }
+    main .trailers .videos-container iframe{
+        width: 200px;
+        height: 255px;
+    }
+}
